@@ -1,0 +1,45 @@
+name: meayar_flutter
+description: "MEAYAR is an accessible Syrian national UI design system for Flutter, featuring 36+ RTL-first components, themes, and Gregorian/Hijri date pickers."
+version: 1.0.0
+homepage: https://github.com/3llomi/MeayarFlutter
+repository: https://github.com/3llomi/MeayarFlutter
+issue_tracker: https://github.com/3llomi/MeayarFlutter/issues
+
+topics:
+  - design-system
+  - rtl
+  - arabic
+  - components
+  - flutter
+
+environment:
+  sdk: ^3.11.5
+  flutter: ">=3.19.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.20.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: Qomra
+      fonts:
+        - asset: assets/fonts/qomra_arabic_regular.ttf
+          weight: 400
+        - asset: assets/fonts/qomra_arabic_medium.ttf
+          weight: 500
+        - asset: assets/fonts/qomra_arabic_bold.ttf
+          weight: 600
+        - asset: assets/fonts/qomra_arabic_bold.ttf
+          weight: 700
+    
